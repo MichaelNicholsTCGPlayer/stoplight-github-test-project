@@ -1,0 +1,5 @@
+title: TestModel
+type: object
+properties:
+  Name:
+    type: string
