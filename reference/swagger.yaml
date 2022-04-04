@@ -132,6 +132,50 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/AuditResponse'
+              examples:
+                Example 1:
+                  value:
+                    previousPage: ''
+                    nextPage: 'https://inventoryApi.com/audit?Offset=2&Limit=2'
+                    resultCount: 2
+                    totalResults: 10
+                    data:
+                      - user: null
+                        firstName: null
+                        lastName: null
+                        date: '2022-03-25T15:25:55.389296-04:00'
+                        skuId: 0
+                        category: null
+                        group: null
+                        product: Test Product 1
+                        condition: null
+                        variant: null
+                        language: null
+                        eventType: null
+                        originalValue: null
+                        newValue: null
+                        tool: null
+                        channel: null
+                        customListingId: null
+                        title: null
+                      - user: null
+                        firstName: null
+                        lastName: null
+                        date: '2022-03-30T12:25:55.3924419-04:00'
+                        skuId: 0
+                        category: null
+                        group: null
+                        product: Test Product 2
+                        condition: null
+                        variant: null
+                        language: null
+                        eventType: null
+                        originalValue: null
+                        newValue: null
+                        tool: null
+                        channel: null
+                        customListingId: null
+                        title: null
         '400':
           description: Input validation errors.
           content:
@@ -271,6 +315,50 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/AuditResponse'
+              examples:
+                Example 1:
+                  value:
+                    previousPage: ''
+                    nextPage: 'https://inventoryApi.com/audit?Offset=2&Limit=2'
+                    resultCount: 2
+                    totalResults: 10
+                    data:
+                      - user: null
+                        firstName: null
+                        lastName: null
+                        date: '2022-03-25T15:25:55.4772322-04:00'
+                        skuId: 0
+                        category: null
+                        group: null
+                        product: Test Product 1
+                        condition: null
+                        variant: null
+                        language: null
+                        eventType: null
+                        originalValue: null
+                        newValue: null
+                        tool: null
+                        channel: null
+                        customListingId: null
+                        title: null
+                      - user: null
+                        firstName: null
+                        lastName: null
+                        date: '2022-03-30T12:25:55.4772338-04:00'
+                        skuId: 0
+                        category: null
+                        group: null
+                        product: Test Product 2
+                        condition: null
+                        variant: null
+                        language: null
+                        eventType: null
+                        originalValue: null
+                        newValue: null
+                        tool: null
+                        channel: null
+                        customListingId: null
+                        title: null
         '400':
           description: Input validation errors.
           content:
