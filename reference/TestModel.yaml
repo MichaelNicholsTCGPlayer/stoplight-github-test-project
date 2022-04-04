@@ -1,5 +1,5 @@
 title: TestModel
 type: object
 properties:
-  id:
+  Name:
     type: string
