@@ -6,7 +6,6 @@ paths:
   /Audits:
     get:
       tags:
-        - Audits
         - Test
       summary: Fetches audit records based on the search criteria.
       parameters:
