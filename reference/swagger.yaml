@@ -521,7 +521,7 @@ paths:
     delete:
       tags:
         - Owners
-      summary: "Clear an Owner's entire Inventory.\r\nImproves on the performance of the original\r\nversion of this endpoint by using deferred execution."
+      summary: Clear an Owner's entire Inventory.Improves on the performance of the originalversion of this endpoint by using deferred execution.
       parameters:
         - name: ownerId
           in: path
