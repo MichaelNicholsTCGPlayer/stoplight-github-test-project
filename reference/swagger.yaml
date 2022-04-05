@@ -7,6 +7,7 @@ paths:
     get:
       tags:
         - Audits
+        - Test
       summary: Fetches audit records based on the search criteria.
       parameters:
         - name: Offset
@@ -521,6 +522,7 @@ paths:
     delete:
       tags:
         - Owners
+        - Test
       summary: Clear an Owner's entire Inventory.Improves on the performance of the originalversion of this endpoint by using deferred execution.
       parameters:
         - name: ownerId
